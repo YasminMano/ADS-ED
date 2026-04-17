@@ -1,3 +1,15 @@
+//Diferença entre lista simples e lista duplamente ligada:
+//Lista Simples: Cada nó tem um ponteiro para o próximo nó, 
+//mas não tem referência para o nó anterior. A navegação é unidirecional, ou seja, 
+//só é possível percorrer a lista do início para o fim. 
+//A remoção de um nó do meio requer percorrer a lista para encontrar o nó anterior, 
+//o que pode ser ineficiente.
+//Lista Duplamente Ligada: Cada nó tem um ponteiro para o próximo nó e um ponteiro para o nó anterior. 
+//A navegação é bidirecional, permitindo percorrer a lista tanto do início para o fim quanto do fim para o início. 
+//A remoção de um nó do meio é mais eficiente, 
+//pois é possível ajustar os ponteiros do nó anterior e do próximo diretamente, 
+//sem precisar percorrer a lista para encontrar o nó anterior.
+
 public class ListaDupla{
     private No inicio;
     private No aux;
