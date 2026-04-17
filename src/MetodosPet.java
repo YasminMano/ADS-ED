@@ -1,8 +1,3 @@
-//Diferenças de arrays e listas:
-//Arrays têm tamanho fixo, ou seja, você precisa definir quantos elementos ele vai ter
-//Listas (como ArrayList) podem crescer dinamicamente, ou seja, 
-//você pode adicionar quantos elementos quiser sem se preocupar com o tamanho inicial.
-
 public class MetodosPet{
     // define que o array começa com 5 posições
     private static final int TAMANHO = 5; //Tamanho inicial do Array
