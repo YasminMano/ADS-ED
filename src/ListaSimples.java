@@ -1,3 +1,8 @@
+//Diferenças de arrays e listas:
+//Arrays têm tamanho fixo, ou seja, você precisa definir quantos elementos ele vai ter
+//Listas (como ArrayList) podem crescer dinamicamente, ou seja, 
+//você pode adicionar quantos elementos quiser sem se preocupar com o tamanho inicial.
+
 public class ListaSimples{
     private No inicio; // Referência para o primeiro nó da lista
     private No aux; // Referência auxiliar para o último nó da lista
